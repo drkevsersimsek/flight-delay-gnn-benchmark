@@ -1,0 +1,14 @@
+# Core dependencies used across scripts/01-13
+# NOTE: exact tested versions were not confirmed by the authors at time of
+# writing. Before submission, run `pip freeze` in the environment that
+# actually produced the paper's results and replace the lines below with
+# pinned versions (e.g. torch==2.2.1) for full reproducibility.
+
+pandas
+numpy
+scipy
+torch
+torch-geometric
+
+# Standard library modules used (no install needed): pickle, glob, os,
+# urllib, json, time, csv
