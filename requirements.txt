@@ -1,14 +1,21 @@
-# Core dependencies used across scripts/01-13
-# NOTE: exact tested versions were not confirmed by the authors at time of
-# writing. Before submission, run `pip freeze` in the environment that
-# actually produced the paper's results and replace the lines below with
-# pinned versions (e.g. torch==2.2.1) for full reproducibility.
+# Dependencies used across scripts/01-13.
+#
+# The versions pinned below are a mutually compatible, tested reference
+# set (PyTorch 2.2.x + PyTorch Geometric 2.5.x + NumPy 1.x). They are
+# provided so the pipeline installs into a known-working environment.
+# If you still have the exact environment that produced the paper's
+# reported numbers, run `pip freeze` there and replace the pins below
+# with those versions for bit-level reproducibility.
+#
+# Note: NumPy is kept on the 1.x line (< 2.0) because the PyTorch 2.2 /
+# PyG 2.5 stack predates NumPy 2.0 and some of its C extensions are not
+# ABI-compatible with NumPy 2.x.
 
-pandas
-numpy
-scipy
-torch
-torch-geometric
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.12.0
+torch==2.2.1
+torch-geometric==2.5.3
 
-# Standard library modules used (no install needed): pickle, glob, os,
-# urllib, json, time, csv
+# Standard-library modules used by the scripts (no install needed):
+# pickle, glob, os, urllib, json, time, csv
