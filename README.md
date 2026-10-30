@@ -131,3 +131,4 @@ revision; see `CHANGELOG.md` for the full list of changes.
 
 MIT License — see [`LICENSE`](LICENSE). (Zenodo records the same license
 for the archived release.)
+   Revision experiments: see revision/README_revision.md
