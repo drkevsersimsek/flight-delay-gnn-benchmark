@@ -1,0 +1,10 @@
+--model mlp --hidden 128 --lr 0.001 --seed 42 --out results_tuned.jsonl --preds preds_tuned
+--model mlp --hidden 128 --lr 0.001 --seed 1 --out results_tuned.jsonl --preds preds_tuned
+--model mlp --hidden 128 --lr 0.001 --seed 7 --out results_tuned.jsonl --preds preds_tuned
+--model mlp --hidden 128 --lr 0.001 --seed 123 --out results_tuned.jsonl --preds preds_tuned
+--model mlp --hidden 128 --lr 0.001 --seed 2024 --out results_tuned.jsonl --preds preds_tuned
+--model gcn --hidden 128 --lr 0.005 --seed 42 --out results_tuned.jsonl --preds preds_tuned
+--model gcn --hidden 128 --lr 0.005 --seed 1 --out results_tuned.jsonl --preds preds_tuned
+--model gcn --hidden 128 --lr 0.005 --seed 7 --out results_tuned.jsonl --preds preds_tuned
+--model gcn --hidden 128 --lr 0.005 --seed 123 --out results_tuned.jsonl --preds preds_tuned
+--model gcn --hidden 128 --lr 0.005 --seed 2024 --out results_tuned.jsonl --preds preds_tuned

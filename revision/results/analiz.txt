@@ -1,0 +1,47 @@
+== main h1
+gat identity n 5 mean 8.941 sd 0.092 d 0.005 wins_mlp 2 p 0.9221 params 17537 eps [10, 20, 25, 23, 9]
+gat random n 5 mean 9.817 sd 0.247 d 0.881 wins_mlp 5 p 0.0036 params 17537 eps [5, 32, 45, 3, 1]
+gat real n 5 mean 9.451 sd 0.395 d 0.515 wins_mlp 5 p 0.0625 params 17537 eps [47, 15, 16, 43, 23]
+gcn identity n 5 mean 8.971 sd 0.115 d 0.034 wins_mlp 3 p 0.6943 params 10689 eps [28, 17, 29, 7, 25]
+gcn random n 5 mean 10.171 sd 0.109 d 1.235 wins_mlp 5 p 0.0003 params 10689 eps [20, 6, 30, 3, 9]
+gcn real n 5 mean 9.890 sd 0.014 d 0.953 wins_mlp 5 p 0.0001 params 10689 eps [9, 6, 4, 32, 4]
+mlp real n 5 mean 8.936 sd 0.132 d 0.000 wins_mlp 0 p None params 10433 eps [12, 33, 13, 17, 9]
+mlpnb real n 5 mean 8.781 sd 0.051 d -0.155 wins_mlp 0 p 0.0913 params 16577 eps [33, 33, 30, 8, 25]
+sage identity n 5 mean 9.019 sd 0.111 d 0.083 wins_mlp 4 p 0.3487 params 20929 eps [16, 6, 25, 7, 25]
+sage random n 5 mean 8.901 sd 0.075 d -0.035 wins_mlp 3 p 0.6276 params 20929 eps [16, 6, 12, 36, 33]
+sage real n 5 mean 8.900 sd 0.041 d -0.036 wins_mlp 2 p 0.5779 params 20929 eps [16, 6, 12, 10, 15]
+== real minus random / identity (paired by seed)
+gcn real-random -0.281 sd 0.109 p 0.0045 n 5
+gcn real-identity 0.919 sd 0.125 p 0.0001 n 5
+gat real-random -0.366 sd 0.588 p 0.2361 n 5
+gat real-identity 0.509 sd 0.427 p 0.0559 n 5
+sage real-random -0.001 sd 0.058 p 0.9755 n 5
+sage real-identity -0.120 sd 0.072 p 0.0203 n 5
+== horizon / rolling / lag
+('gat', 'real', 1, 'main', 1) n 3 mean 9.513 sd 0.375
+('gat', 'real', 1, 'rollQ2', 0) n 3 mean 12.512 sd 0.767
+('gat', 'real', 1, 'rollQ3', 0) n 3 mean 11.608 sd 0.957
+('gat', 'real', 1, 'rollQ4', 0) n 3 mean 9.218 sd 0.445
+('gat', 'real', 3, 'main', 0) n 3 mean 9.585 sd 0.369
+('gat', 'real', 6, 'main', 0) n 3 mean 10.432 sd 0.268
+('gcn', 'real', 1, 'main', 1) n 3 mean 10.005 sd 0.179
+('gcn', 'real', 1, 'rollQ2', 0) n 3 mean 12.471 sd 0.264
+('gcn', 'real', 1, 'rollQ3', 0) n 3 mean 12.016 sd 0.229
+('gcn', 'real', 1, 'rollQ4', 0) n 3 mean 9.558 sd 0.072
+('gcn', 'real', 3, 'main', 0) n 3 mean 9.899 sd 0.116
+('gcn', 'real', 6, 'main', 0) n 3 mean 10.358 sd 0.135
+('mlp', 'real', 1, 'main', 1) n 3 mean 9.126 sd 0.133
+('mlp', 'real', 1, 'rollQ2', 0) n 3 mean 10.800 sd 0.144
+('mlp', 'real', 1, 'rollQ3', 0) n 3 mean 10.273 sd 0.096
+('mlp', 'real', 1, 'rollQ4', 0) n 3 mean 8.589 sd 0.076
+('mlp', 'real', 3, 'main', 0) n 3 mean 9.326 sd 0.078
+('mlp', 'real', 6, 'main', 0) n 3 mean 10.207 sd 0.146
+== disruption (top 10% network-mean delay test snapshots), h1 main
+persistence all 12.206 top 22.168
+AR all 9.115 top 17.344
+mlp n 5 all 8.936 top 16.997 sd 0.179
+gcn n 5 all 9.890 top 21.361 sd 0.197
+gat n 5 all 9.451 top 19.494 sd 2.269
+sage n 5 all 8.900 top 17.269 sd 0.173
+mlpnb n 5 all 8.781 top 17.126 sd 0.144
+top10 threshold network-mean delay (min): 20.1

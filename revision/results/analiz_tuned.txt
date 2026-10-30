@@ -1,0 +1,6 @@
+Secilen ayarlarla 5 seed (MLP 128/1e-3, GCN 128/5e-3, GAT 64/1e-3), test MAE dk
+mlp n 5 mean 8.801 sd 0.048 [8.858, 8.799, 8.816, 8.805, 8.725]
+gcn n 5 mean 9.834 sd 0.101 [9.835, 9.73, 9.801, 9.802, 10.002]
+gat n 5 mean 9.451 sd 0.395 [9.521, 10.11, 9.282, 9.145, 9.196]
+mlp-gcn diff -1.034 p 0.0001 MLP 5 / 5 seed daha iyi
+mlp-gat diff -0.650 p 0.0198 MLP 5 / 5 seed daha iyi

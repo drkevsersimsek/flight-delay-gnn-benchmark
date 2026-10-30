@@ -1,0 +1,15 @@
+--model mlp --seed 42 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model mlp --seed 1 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model mlp --seed 7 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model mlp --seed 123 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model mlp --seed 2024 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gcn --seed 42 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gcn --seed 1 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gcn --seed 7 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gcn --seed 123 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gcn --seed 2024 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gat --seed 42 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gat --seed 1 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gat --seed 7 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gat --seed 123 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal
+--model gat --seed 2024 --data graphs_hourly_cal.npz --out results_cal.jsonl --preds preds_cal

@@ -1,0 +1,15 @@
+== SEYREK GRAF (her havalimani icin en yogun k gelen rota)
+gat    graphs_hourly_v2_top10.npz     n 5 mean 9.566 sd 0.061 | vs ayni model yogun/havasiz: +0.115 p 0.5344 (1/5 seed daha iyi) | vs MLP (ana): +0.630 p 0.0006
+gat    graphs_hourly_v2_top5.npz      n 5 mean 9.574 sd 0.061 | vs ayni model yogun/havasiz: +0.123 p 0.5521 (1/5 seed daha iyi) | vs MLP (ana): +0.637 p 0.0000
+gcn    graphs_hourly_v2_top10.npz     n 5 mean 9.630 sd 0.101 | vs ayni model yogun/havasiz: -0.259 p 0.0049 (5/5 seed daha iyi) | vs MLP (ana): +0.694 p 0.0021
+gcn    graphs_hourly_v2_top5.npz      n 5 mean 9.607 sd 0.102 | vs ayni model yogun/havasiz: -0.282 p 0.0043 (5/5 seed daha iyi) | vs MLP (ana): +0.671 p 0.0021
+mlpnb  graphs_hourly_v2_top10.npz     n 5 mean 8.822 sd 0.051 | vs ayni model yogun/havasiz: +0.040 p 0.3527 (3/5 seed daha iyi) | vs MLP (ana): -0.114 p 0.1175
+mlpnb  graphs_hourly_v2_top5.npz      n 5 mean 8.827 sd 0.067 | vs ayni model yogun/havasiz: +0.046 p 0.4178 (1/5 seed daha iyi) | vs MLP (ana): -0.109 p 0.0909
+sage   graphs_hourly_v2_top10.npz     n 5 mean 8.967 sd 0.084 | vs ayni model yogun/havasiz: +0.068 p 0.1301 (1/5 seed daha iyi) | vs MLP (ana): +0.031 p 0.4859
+sage   graphs_hourly_v2_top5.npz      n 5 mean 8.992 sd 0.058 | vs ayni model yogun/havasiz: +0.093 p 0.0007 (0/5 seed daha iyi) | vs MLP (ana): +0.056 p 0.4004
+== SAATLIK HAVA DURUMU
+gat    graphs_hourly_v2_weather.npz   n 5 mean 9.984 sd 0.973 | vs ayni model yogun/havasiz: +0.533 p 0.3276 (2/5 seed daha iyi) | vs MLP (ana): +1.048 p 0.0654
+gcn    graphs_hourly_v2_weather.npz   n 5 mean 9.928 sd 0.076 | vs ayni model yogun/havasiz: +0.039 p 0.2984 (1/5 seed daha iyi) | vs MLP (ana): +0.992 p 0.0000
+mlp    graphs_hourly_v2_weather.npz   n 5 mean 9.186 sd 0.230 | vs ayni model yogun/havasiz: +0.250 p 0.0255 (0/5 seed daha iyi)
+gcn vs MLP (ikisi de hava durumlu): +0.742 p 0.0005 (MLP 5/5 seed daha iyi)
+gat vs MLP (ikisi de hava durumlu): +0.798 p 0.1318 (MLP 5/5 seed daha iyi)

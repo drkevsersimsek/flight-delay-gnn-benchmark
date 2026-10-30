@@ -1,0 +1,109 @@
+--model mlp --seed 42
+--model mlp --seed 1
+--model mlp --seed 7
+--model mlp --seed 123
+--model mlp --seed 2024
+--model gcn --seed 42
+--model gcn --seed 1
+--model gcn --seed 7
+--model gcn --seed 123
+--model gcn --seed 2024
+--model gat --seed 42
+--model gat --seed 1
+--model gat --seed 7
+--model gat --seed 123
+--model gat --seed 2024
+--model sage --seed 42
+--model sage --seed 1
+--model sage --seed 7
+--model sage --seed 123
+--model sage --seed 2024
+--model mlpnb --seed 42
+--model mlpnb --seed 1
+--model mlpnb --seed 7
+--model mlpnb --seed 123
+--model mlpnb --seed 2024
+--model gcn --graph random --seed 42
+--model gcn --graph random --seed 1
+--model gcn --graph random --seed 7
+--model gcn --graph random --seed 123
+--model gcn --graph random --seed 2024
+--model gat --graph random --seed 42
+--model gat --graph random --seed 1
+--model gat --graph random --seed 7
+--model gat --graph random --seed 123
+--model gat --graph random --seed 2024
+--model sage --graph random --seed 42
+--model sage --graph random --seed 1
+--model sage --graph random --seed 7
+--model sage --graph random --seed 123
+--model sage --graph random --seed 2024
+--model gcn --graph identity --seed 42
+--model gcn --graph identity --seed 1
+--model gcn --graph identity --seed 7
+--model gcn --graph identity --seed 123
+--model gcn --graph identity --seed 2024
+--model gat --graph identity --seed 42
+--model gat --graph identity --seed 1
+--model gat --graph identity --seed 7
+--model gat --graph identity --seed 123
+--model gat --graph identity --seed 2024
+--model sage --graph identity --seed 42
+--model sage --graph identity --seed 1
+--model sage --graph identity --seed 7
+--model sage --graph identity --seed 123
+--model sage --graph identity --seed 2024
+--model mlp --h 3 --seed 42
+--model mlp --h 3 --seed 1
+--model mlp --h 3 --seed 7
+--model gcn --h 3 --seed 42
+--model gcn --h 3 --seed 1
+--model gcn --h 3 --seed 7
+--model gat --h 3 --seed 42
+--model gat --h 3 --seed 1
+--model gat --h 3 --seed 7
+--model mlp --h 6 --seed 42
+--model mlp --h 6 --seed 1
+--model mlp --h 6 --seed 7
+--model gcn --h 6 --seed 42
+--model gcn --h 6 --seed 1
+--model gcn --h 6 --seed 7
+--model gat --h 6 --seed 42
+--model gat --h 6 --seed 1
+--model gat --h 6 --seed 7
+--model mlp --split rollQ2 --seed 42
+--model mlp --split rollQ2 --seed 1
+--model mlp --split rollQ2 --seed 7
+--model gcn --split rollQ2 --seed 42
+--model gcn --split rollQ2 --seed 1
+--model gcn --split rollQ2 --seed 7
+--model gat --split rollQ2 --seed 42
+--model gat --split rollQ2 --seed 1
+--model gat --split rollQ2 --seed 7
+--model mlp --split rollQ3 --seed 42
+--model mlp --split rollQ3 --seed 1
+--model mlp --split rollQ3 --seed 7
+--model gcn --split rollQ3 --seed 42
+--model gcn --split rollQ3 --seed 1
+--model gcn --split rollQ3 --seed 7
+--model gat --split rollQ3 --seed 42
+--model gat --split rollQ3 --seed 1
+--model gat --split rollQ3 --seed 7
+--model mlp --split rollQ4 --seed 42
+--model mlp --split rollQ4 --seed 1
+--model mlp --split rollQ4 --seed 7
+--model gcn --split rollQ4 --seed 42
+--model gcn --split rollQ4 --seed 1
+--model gcn --split rollQ4 --seed 7
+--model gat --split rollQ4 --seed 42
+--model gat --split rollQ4 --seed 1
+--model gat --split rollQ4 --seed 7
+--model mlp --lag 1 --seed 42
+--model mlp --lag 1 --seed 1
+--model mlp --lag 1 --seed 7
+--model gcn --lag 1 --seed 42
+--model gcn --lag 1 --seed 1
+--model gcn --lag 1 --seed 7
+--model gat --lag 1 --seed 42
+--model gat --lag 1 --seed 1
+--model gat --lag 1 --seed 7

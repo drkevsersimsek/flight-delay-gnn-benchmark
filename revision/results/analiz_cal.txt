@@ -1,0 +1,7 @@
+Takvim saati izgarasi (Config 5, 5 seed, test MAE dk)
+mlp mean 8.918 sd 0.093 seeds [9.042, 8.977, 8.905, 8.815, 8.85]
+gcn mean 9.915 sd 0.066 seeds [10.018, 9.839, 9.905, 9.923, 9.889]
+gat mean 9.654 sd 0.470 seeds [9.86, 10.315, 9.683, 9.251, 9.162]
+mlp-gcn diff -0.997 p 0.0000 mlp better in 5 of 5
+mlp-gat diff -0.737 p 0.0147 mlp better in 5 of 5
+persistence 12.298  HA 12.538  ridge AR 8.954
